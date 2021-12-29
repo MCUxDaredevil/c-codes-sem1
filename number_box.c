@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
 int main() 
 {
@@ -13,15 +10,15 @@ int main()
     for(i=a; i>0; i--) {
 		
 		for(k=a; k>i; k--){
-			printf("%d",k);
+			printf("%d ",k);
 		}
 		
 		for(j=(2*i)-1; j>1; j--) {
-            printf("%d",i);
+            printf("%d ",i);
         }
 		
 		for(k=i; k<=a; k++){
-			printf("%d",k);
+			printf("%d ",k);
 		}
 		
 		printf("\n");
@@ -31,15 +28,15 @@ int main()
 	for(i=2; i<=a; i++) {
 		
 		for(k=a; k>i; k--){
-			printf("%d",k);
+			printf("%d ",k);
 		}
 		
 		for(j=1; j<(2*i)-1; j++) {
-            printf("%d",i);
+            printf("%d ",i);
         }
 		
 		for(k=i; k<=a; k++){
-			printf("%d",k);
+			printf("%d ",k);
 		}
 		
 		printf("\n");
