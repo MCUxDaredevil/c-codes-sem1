@@ -1,3 +1,15 @@
+/* 
+
+Name            number_box.c
+Description     Create a pattern of box of numbers with specified size by user input
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include <stdio.h>
 
 int main() 

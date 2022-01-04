@@ -1,3 +1,15 @@
+/* 
+
+Name            P7_1.c
+Description     Calculate the sum of squares of integers until the limit
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include<stdio.h>
 
 int main() {

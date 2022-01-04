@@ -1,3 +1,15 @@
+/* 
+
+Name            PL2.c
+Description     Print the reverse of a given number
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include<stdio.h>
 
 int main() {
@@ -8,7 +20,6 @@ int main() {
 	printf("\n\n");
 	
 	for(i=1; a!=0; i++) {
-//		printf("%d",a%10);
 		rev = (rev*10) + (a%10);
 		a /= 10;
 	}

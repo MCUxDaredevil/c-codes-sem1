@@ -1,3 +1,15 @@
+/* 
+
+Name            P8_4.c
+Description     Use bubble sort to sort an array in ascending order
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include<stdio.h>
 
 int main(){

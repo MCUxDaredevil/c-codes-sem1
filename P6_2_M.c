@@ -1,3 +1,15 @@
+/* 
+
+Name            P6_2_M.c
+Description     Print the fibonacci series using its algebraic formula
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include<stdio.h>
 #include<math.h>
 

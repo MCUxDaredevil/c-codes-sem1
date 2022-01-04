@@ -1,3 +1,15 @@
+/* 
+
+Name            P4_2.c
+Description     Find out the maximum value out of the three given inputs
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include<stdio.h>
 
 int main() {

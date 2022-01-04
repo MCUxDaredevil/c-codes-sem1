@@ -1,3 +1,15 @@
+/* 
+
+Name            Heart.c
+Description     Create a heart of specified size by user input
+Author          MCUxDaredevil (https://github.com/mcuxdaredevil)
+Github Page     https://github.com/MCUxDaredevil/c-codes-sem1
+Support URL     https://github.com/MCUxDaredevil/c-codes-sem1/issues
+Discussions		https://github.com/MCUxDaredevil/c-codes-sem1/discussions
+License         MIT
+
+*/
+
 #include<stdio.h>
 
 int flatHead(int a, int i, int j, int k, int l) {
