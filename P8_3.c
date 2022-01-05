@@ -29,13 +29,17 @@ int main(){
 	}
 	printf("\n\n");
 	for(;;){
-		system("clear");	
+		#ifdef __linux__
+			system("clear");
+		#elif _WIN32
+			system("cls");
+		#endif
 		printf("Enter the desired index to edit: ");
 		scanf("%d", &index);
 		if(index >= len)
 			continue;
 	
-		printf("\n1. Insert element\n2. Delete element\nWhat operation would you like to perform: ");
+		printf("\n1. Insert element\n2. Delete element\n\nWhat operation would you like to perform: ");
 		scanf("%d", &choice);
 	
 		switch(choice){
@@ -53,7 +57,6 @@ int main(){
 				for(i=index; i<len-1; i++){
 					a[i] = a[i+1];
 				}
-				a[len] = 0;
 				len--;
 				break;
 			default:
