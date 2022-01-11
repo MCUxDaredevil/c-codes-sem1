@@ -1,4 +1,4 @@
-/* 
+/*
 
 Name            P9_2.c
 Description     Finding the length of a string without using library functions
@@ -17,16 +17,16 @@ int main(){
 
 	int length;
 	char string[100];
-	
+
 	printf("\n\nEnter the string: \n");
 	gets(string);
-	
+
 	for(length=0; length<100; length++){
 		if(string[length] == '\0'){
 			break;
 		}
 	}
-	
+
 	printf("\n\nThe length of the string is %d\n\n", length);
 
 	return 0;
