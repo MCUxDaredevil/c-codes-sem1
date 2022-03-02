@@ -14,7 +14,7 @@ License         MIT
 
 int main(){
 
-	int size,i,j,k,rowA,rowB,colA,colB,val;
+	int i,j,k,rowA,rowB,colA,colB,val;
 
 	printf("\n\nEnter the row and column size of the first matrix: ");
 	scanf("%d %d", &rowA,&colA);
